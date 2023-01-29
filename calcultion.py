@@ -35,4 +35,4 @@ plt.title("calculation Plot", fontsize=28)
 plt.ylabel("principal", fontsize=18)
 
 plt.xlabel("time", fontsize=18)
-plt.show()  
+#plt.show()  
