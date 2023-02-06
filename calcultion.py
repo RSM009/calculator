@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import colorama
 from colorama import Fore
 print(Fore.RED +"............................Welcome you to Compound Interest calculator......................................")
-starting_bal = int(input(Fore.GREEN +"Starting Balance :- "))
-#monthly_contri =int(input   ("Monthly Contribution(optional):- "))
-intrest_rate=int( input(Fore.CYAN +"Interest Rate :- "))
+starting_bal = float(input(Fore.GREEN +"Starting Balance :- "))
+#monthly_contri =float(input   ("Monthly Contribution(optional):- "))
+intrest_rate=float( input(Fore.CYAN +"Interest Rate :- "))
 duration = int(input(Fore.YELLOW +"Duration :- "))
 principal_graph = []
 
